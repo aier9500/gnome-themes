@@ -1,0 +1,42 @@
+[/]
+calculator=['<Super>c']
+control-center=['<Super>i']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/']
+help=@as []
+home=['<Super>e']
+logout=@as []
+magnifier=['<Super>z']
+mic-mute=['F8']
+rotate-video-lock-static=@as []
+screenreader=@as []
+www=['<Super>w']
+
+[custom-keybindings/custom0]
+binding='<Shift><Control>Escape'
+command='flatpak run io.missioncenter.MissionCenter'
+name='flatpak run io.missioncenter.MissionCenter'
+
+[custom-keybindings/custom1]
+binding='<Shift><Super>c'
+command='gnome-characters'
+name='gnome-characters'
+
+[custom-keybindings/custom2]
+binding='<Shift><Super>r'
+command='gnome-terminal'
+name='gnome-terminal'
+
+[custom-keybindings/custom3]
+binding='<Super>t'
+command='gnome-text-editor'
+name='gnome-text-editor'
+
+[custom-keybindings/custom4]
+binding='<Super>f'
+command='flatpak run one.ablaze.floorp --ProfileManager'
+name='flatpak run one.ablaze.floorp --ProfileManager'
+
+[custom-keybindings/custom5]
+binding='<Control><Super>Delete'
+command='gnome-session-quit'
+name='gnome-session-quit'
